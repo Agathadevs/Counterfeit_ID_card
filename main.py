@@ -60,4 +60,4 @@ def get():
     identity_card.save('new_id.png')
 
 if __name__=="__main__":
-    get()
+    get()#star
