@@ -23,13 +23,16 @@ class identity:
     CARD:str
     ID_card_font_size:str
     Date_of_issue:str
+    
 '''change your info here'''
-id_card=identity(YOUR_NAME='ditisrmel',
+id_card=identity(
+                 YOUR_NAME='ditisrmel',
                  YOUR_BIRTHDAY='99-04-14',
                  YOUR_IMAGE='icon.png',
                  CARD='ID_BASE.png',
                  ID_card_font_size="108-05-10-北市",
-                 Date_of_issue="F123456789")
+                 Date_of_issue="F123456789"
+)
 
 def get():
 
@@ -60,4 +63,4 @@ def get():
     identity_card.save('new_id.png')
 
 if __name__=="__main__":
-    get()#star
+    get()#start
